@@ -1,0 +1,56 @@
+/* Using Color Name */
+h6{
+    color: red;
+}
+
+/* Using Hexa Decimal */
+h5{
+    color: #DC143C;
+}
+
+
+/* Using RGB Color 
+rgb(red,green,blue)
+rgb(0-255,0-255,0-255)
+*/
+h4{
+    color: rgb(255,100,150);
+}
+
+/* Using RGBA Color 
+rgba(red,green,blue,alpha)
+rgba(0-255,0-255,0-255,0-1)
+*/
+h3{
+    color: rgba(255,0,0,0.4);
+}
+
+/* HSL Color 
+hsl(hue,saturate,lightness)
+hsl(0-360,0%-100%,0%-100%)
+default : hsl(0-360,100%,50%)
+*/
+h2{
+    /* color: hsl(100,100%,50%); */
+    color: hsl(348, 83%, 47%);
+}
+
+/* HSL Color 
+hsla(hue,saturate,lightness,alpha)
+hsla(0-360,0%-100%,0%-100%,0-1)
+default : hsl(0-360,100%,50%,1)
+*/
+h1{
+    color: hsla(360,100%,50%,.7);
+}
+
+
+/* 
+h1 : teal : using colorname 
+h2 : brown : hexa
+h3 : coral : rgb 
+h4 : lightblue : rgba 
+h5 : aqua : hsl 
+h6 : orangered : hsla 
+
+*/
